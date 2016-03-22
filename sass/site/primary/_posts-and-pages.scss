@@ -1,3 +1,8 @@
+.site {
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+
 .sticky {
 	display: block;
 }
@@ -25,4 +30,16 @@
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+
+.nav-links a {
+	@extend .mdl-button, .mdl-js-button, .mdl-button--fab, .mdl-js-ripple-effect, .mdl-button--colored;
+}
+
+.nav-previous {
+	float: left;
+}
+
+.nav-next {
+	float: right;
 }
