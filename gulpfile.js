@@ -17,7 +17,7 @@ var gulp = require( 'gulp' ),
   zip = require('gulp-zip');
 
 var config = {
-     bowerDir: './bower_components' 
+    bowerDir: './bower_components'
 }
  
  
