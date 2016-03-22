@@ -45,6 +45,7 @@ function cezar_grigoriu_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary', 'cezar-grigoriu' ),
+		'drawer' => esc_html__( 'Drawer', 'cezar-grigoriu' ),
 	) );
 
 	/*
@@ -127,6 +128,11 @@ function cezar_grigoriu_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'cezar_grigoriu_scripts' );
+
+/**
+ * Implement the nav walker feature.
+ */
+require get_template_directory() . '/inc/nav-walker.php';
 
 /**
  * Implement the Custom Header feature.

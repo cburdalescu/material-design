@@ -20,6 +20,7 @@
 			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'cezar-grigoriu' ), 'cezar-grigoriu', '<a href="http://designify.com" rel="designer">Cosmin Burdalescu</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
+</main>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
