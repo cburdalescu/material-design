@@ -22,17 +22,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 @import "material-design-lite";
 
-.site-content {
-	@extend .mdl-grid;
-}
 
-.content-area {
-	@extend .mdl-cell, .mdl-cell--9-col
-}
-
-.widget-area {
-	@extend .mdl-cell, .mdl-cell--3-col
-}
 
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
@@ -60,30 +50,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "variables-site/variables-site";
 @import "mixins/mixins-master";
 
-/*--------------------------------------------------------------
-# Normalize
---------------------------------------------------------------*/
-@import "normalize";
 
-/*--------------------------------------------------------------
-# Typography
---------------------------------------------------------------*/
-@import "typography/typography";
-
-/*--------------------------------------------------------------
-# Elements
---------------------------------------------------------------*/
-@import "elements/elements";
-
-/*--------------------------------------------------------------
-# Forms
---------------------------------------------------------------*/
-@import "forms/forms";
-
-/*--------------------------------------------------------------
-# Navigation
---------------------------------------------------------------*/
-@import "navigation/navigation";
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -94,6 +61,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Alignments
 --------------------------------------------------------------*/
 @import "modules/alignments";
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+@import "layout/content-sidebar";
 
 /*--------------------------------------------------------------
 # Clearings
@@ -110,10 +82,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 --------------------------------------------------------------*/
 @import "site/site";
 
-/*--------------------------------------------------------------
-# Infinite scroll
---------------------------------------------------------------*/
-@import "modules/infinite-scroll";
 
 /*--------------------------------------------------------------
 # Media
